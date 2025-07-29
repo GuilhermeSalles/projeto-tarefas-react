@@ -5,7 +5,43 @@ import { v4 } from "uuid";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 
 function App() {
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState([
+    {
+      id: 1,
+      title: "Estudar React + Tailwind",
+      description:
+        "Aprofundar os conhecimentos em React.js com foco em componentes reutilizáveis, hooks personalizados e estilização moderna usando Tailwind CSS.",
+      isCompleted: false,
+    },
+    {
+      id: 2,
+      title: "Praticar exercícios físicos",
+      description:
+        "Realizar uma série de treinos funcionais de 45 minutos, incluindo alongamento, cardio e treino de força para manter o bem-estar físico.",
+      isCompleted: false,
+    },
+    {
+      id: 3,
+      title: "Ler livro técnico",
+      description:
+        "Ler pelo menos 2 capítulos do livro 'Clean Code' de Robert C. Martin para melhorar a qualidade e legibilidade do código no trabalho.",
+      isCompleted: false,
+    },
+    {
+      id: 4,
+      title: "Planejar conteúdo semanal",
+      description:
+        "Organizar as tarefas da semana no Notion, incluindo metas pessoais, atividades de trabalho e compromissos importantes.",
+      isCompleted: false,
+    },
+    {
+      id: 5,
+      title: "Atualizar portfólio",
+      description:
+        "Incluir os últimos projetos desenvolvidos no portfólio online, com descrições detalhadas, tecnologias usadas e links para repositórios GitHub.",
+      isCompleted: false,
+    },
+  ]);
 
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(3);
