@@ -108,7 +108,7 @@ function App() {
               className="bg-white border border-slate-300 px-3 py-1 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-slate-400 transition"
             >
               <option value={3}>3</option>
-              <option value={5}>5</option>
+              <option value={6}>6</option>
               <option value={10}>10</option>
             </select>
           </div>
