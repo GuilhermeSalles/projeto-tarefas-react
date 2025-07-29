@@ -1,6 +1,6 @@
 import { useState } from "react";
 import AddTask from "./components/AddTask";
-import Tasks from "./components/tasks";
+import Tasks from "./components/Task";
 import { v4 } from "uuid";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 
